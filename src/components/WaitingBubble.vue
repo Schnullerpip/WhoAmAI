@@ -4,9 +4,9 @@
 
 <template>
   <div class="waiting-bubble">
-    <p class="dot" style="animation-delay: 0ms">.</p>
-    <p class="dot" style="animation-delay: 100ms">.</p>
-    <p class="dot" style="animation-delay: 200ms">.</p>
+    <p class="dot" style="animation-delay: 0ms">\</p>
+    <p class="dot" style="animation-delay: 100ms">:3</p>
+    <p class="dot" style="animation-delay: 200ms">/</p>
   </div>
 </template>
 
@@ -25,14 +25,11 @@
 }
 
 .dot {
-  animation: bounce 1s infinite cubic-bezier(0.445, 0.05, 0.55, 2);
+  animation: bounce 0.5s alternate infinite ease;
 }
 
 @keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
+  to {
     transform: translateY(-5px);
   }
 }

@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <div class="message-bubble">
-    <p v-html="message"></p>
+    <p>{{ message }}</p>
   </div>
 </template>
 
