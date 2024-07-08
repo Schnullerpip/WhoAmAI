@@ -26,13 +26,14 @@
 
 .dot {
   animation: bounce 1s infinite cubic-bezier(0.445, 0.05, 0.55, 2);
-  @keyframes bounce {
-    0%, 100% {
-      transform: translateY(0);
-    }
-    50% {
-      transform: translateY(-5px);
-    }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-5px);
   }
 }
 </style>
