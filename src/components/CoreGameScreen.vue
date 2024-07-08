@@ -79,7 +79,7 @@ async function checkIfCorrect(aiAnswer: string) {
             class="message-bubble"
             :message="message"
         />
-        <WaitinBubble
+        <WaitingBubble
             v-if="waiting"
             class="message-bubble"
         />
